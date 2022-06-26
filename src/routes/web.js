@@ -6,4 +6,8 @@ router.get('/',apicontroller.index);
 
 router.get('/data',apicontroller.data)
 
+router.get('/users',apicontroller.getUsers);
+
+router.post('/createUser',apicontroller.createUser)
+
 module.exports=router;
