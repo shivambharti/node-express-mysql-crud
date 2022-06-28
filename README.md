@@ -1,16 +1,17 @@
 # Getting Started with node-express-mysql-crud
 
-Installed express js.
+This project is basic example of crud rest api with mvc pattern.
 
 ## `npm install`
 
-Run this above command to install node modules & all dependencies
+Run this above command to install node modules & all requied packages
 
 ### Available Scripts
 
 In the project directory, you can run:
 
-#### `node  index.js`
+#### `nodemon index`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
