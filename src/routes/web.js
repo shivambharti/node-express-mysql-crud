@@ -10,4 +10,10 @@ router.get('/users',apicontroller.getUsers);
 
 router.post('/createUser',apicontroller.createUser)
 
+router.put ('/updateUser',apicontroller.updateUser)
+
+router.delete ('/deleteUser',apicontroller.deleteUser)
+
+
+
 module.exports=router;
